@@ -1,0 +1,2084 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+	
+
+	<title>ILIAS Universität Tübingen: Exercise Sheets</title>
+
+	<style type="text/css">
+		
+	</style>
+
+	
+	<link rel="stylesheet" type="text/css" href="./Services/Accordion/css/accordion.css" />
+	
+	<link rel="stylesheet" type="text/css" href="./libs/bower/bower_components/owl.carousel/dist/assets/owl.carousel.css" />
+	
+	<link rel="stylesheet" type="text/css" href="./libs/bower/bower_components/yui2/build/container/assets/skins/sam/container.css" />
+	
+	<link rel="stylesheet" type="text/css" href="./Services/Calendar/css/panel_min.css" />
+	
+	<link rel="stylesheet" type="text/css" href="./libs/bower/bower_components/Yamm3/yamm/yamm.css" />
+	
+	<link rel="stylesheet" type="text/css" href="./libs/bower/bower_components/mediaelement/build/mediaelementplayer.min.css" />
+	
+	<link rel="stylesheet" type="text/css" href="Services/Notifications/templates/default/osd.css" />
+	
+	<link rel="stylesheet" type="text/css" href="./Customizing/global/skin/unituebingen6_Ovid/unituebingen6_Ovid.css?vers=6-11-2021-09-10-0-232" />
+	
+	<link rel="stylesheet" type="text/css" href="templates/default/delos_cont.css?vers=6-11-2021-09-10" />
+	
+	<link rel="stylesheet" type="text/css" href="./libs/bower/bower_components/qtip2/dist/jquery.qtip.min.css" />
+	
+	<link rel="stylesheet" type="text/css" href="./libs/bower/bower_components/jstree/dist/themes/default/style.min.css" />
+	
+
+	
+	<script type="text/javascript" src="./libs/bower/bower_components/jquery/dist/jquery.js"></script>
+	
+	<script type="text/javascript" src="./libs/bower/bower_components/jquery-migrate/jquery-migrate.min.js"></script>
+	
+	<script type="text/javascript" src="./libs/bower/bower_components/jquery-ui/jquery-ui.js"></script>
+	
+	<script type="text/javascript" src="./libs/bower/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	
+	<script type="text/javascript" src="./src/UI/templates/js/Core/ui.js"></script>
+	
+	<script type="text/javascript" src="./Services/JavaScript/js/Basic.js"></script>
+	
+	<script type="text/javascript" src="./src/GlobalScreen/Client/dist/GS.js"></script>
+	
+	<script type="text/javascript" src="./libs/bower/bower_components/maphilight/jquery.maphilight.min.js"></script>
+	
+	<script type="text/javascript" src="./src/UI/templates/js/Page/stdpage.js"></script>
+	
+	<script type="text/javascript" src="./src/UI/templates/js/MainControls/mainbar.js"></script>
+	
+	<script type="text/javascript" src="./src/UI/templates/js/MainControls/metabar.js"></script>
+	
+	<script type="text/javascript" src="./src/UI/templates/js/MainControls/footer.js"></script>
+	
+	<script type="text/javascript" src="./src/UI/templates/js/Button/button.js"></script>
+	
+	<script type="text/javascript" src="./libs/bower/bower_components/moment/min/moment-with-locales.min.js"></script>
+	
+	<script type="text/javascript" src="./libs/bower/bower_components/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js"></script>
+	
+	<script type="text/javascript" src="./src/UI/templates/js/MainControls/slate.js"></script>
+	
+	<script type="text/javascript" src="./src/UI/templates/js/Counter/counter.js"></script>
+	
+	<script type="text/javascript" src="./src/UI/templates/js/Dropdown/dropdown.js"></script>
+	
+	<script type="text/javascript" src="./Modules/Exercise/js/ilExcPresentation.js"></script>
+	
+	<script type="text/javascript" src="./libs/bower/bower_components/yui2/build/yahoo-dom-event/yahoo-dom-event.js"></script>
+	
+	<script type="text/javascript" src="./libs/bower/bower_components/yui2/build/connection/connection-min.js"></script>
+	
+	<script type="text/javascript" src="./Services/Accordion/js/accordion.js"></script>
+	
+	<script type="text/javascript" src="./Services/UIComponent/Modal/js/Modal.js"></script>
+	
+	<script type="text/javascript" src="./libs/bower/bower_components/yui2/build/container/container-min.js"></script>
+	
+	<script type="text/javascript" src="./Services/Notes/js/ilNotes.js"></script>
+	
+	<script type="text/javascript" src="./Services/Tagging/js/ilTagging.js"></script>
+	
+	<script type="text/javascript" src="./Services/UIComponent/AdvancedSelectionList/js/AdvancedSelectionList.js"></script>
+	
+	<script type="text/javascript" src="./Services/Contact/BuddySystem/js/buddy_system.js"></script>
+	
+	<script type="text/javascript" src="./libs/bower/bower_components/mediaelement/build/mediaelement-and-player.min.js"></script>
+	
+	<script type="text/javascript" src="Services/Notifications/templates/default/notifications.js"></script>
+	
+	<script type="text/javascript" src="./libs/bower/bower_components/qtip2/dist/jquery.qtip.min.js"></script>
+	
+	<script type="text/javascript" src="./Services/UIComponent/Tooltip/js/ilTooltip.js"></script>
+	
+	<script type="text/javascript" src="./Services/UIComponent/Explorer2/js/Explorer2.js"></script>
+	
+	<script type="text/javascript" src="./libs/bower/bower_components/jstree/dist/jstree.js"></script>
+	
+	<script type="text/javascript" src="./Services/Help/js/ilHelp.js"></script>
+	
+	<script type="text/javascript" src="./Services/COPage/js/ilCOPagePres.js"></script>
+	
+	<script type="text/javascript" src="./libs/bower/bower_components/yui2/build/container/container_core-min.js"></script>
+	
+	<script type="text/javascript" src="./Services/UIComponent/Overlay/js/ilOverlay.js"></script>
+	
+	<script type="text/javascript" src="./libs/bower/bower_components/owl.carousel/dist/owl.carousel.js"></script>
+	
+</head>
+
+<body>
+
+	<div class="il-layout-page">
+
+		<header>
+			<div class="header-inner">
+				<div class="il-logo">
+					
+<a href="https://ovidius.uni-tuebingen.de/ilias3/goto.php?target=root_1&client_id=pr02">
+
+
+
+<img src="./Customizing/global/skin/unituebingen6_Ovid/images/HeaderIcon.svg" class="img-standard" alt="ILIAS" />
+
+
+
+
+
+</a>
+
+					<div class="il-pagetitle">
+						lehren - lernen - forschen
+					</div>
+				</div>
+
+				
+				<nav class="il-header-locator">
+					<div class="dropdown"><button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown"  aria-haspopup="true" aria-expanded="false" >Exercise Sheets <span class="caret"></span></button>
+<ul class="dropdown-menu">
+	<li><button class="btn btn-link" data-action="ilias.php?ref_id=3334251&cmd=frameset&cmdClass=ilrepositorygui&cmdNode=y7&baseClass=ilrepositorygui" id="il_ui_fw_619bf22fc9f079_18179744">Data Literacy</button>
+</li>
+	<li><button class="btn btn-link" data-action="ilias.php?ref_id=3279803&cmd=frameset&cmdClass=ilrepositorygui&cmdNode=y7&baseClass=ilrepositorygui" id="il_ui_fw_619bf22fc9f793_73110881">Methods of Machine Learning (Prof. Hennig)</button>
+</li>
+	<li><button class="btn btn-link" data-action="ilias.php?ref_id=3279778&cmd=frameset&cmdClass=ilrepositorygui&cmdNode=y7&baseClass=ilrepositorygui" id="il_ui_fw_619bf22fc9fd97_82457661">Informatik</button>
+</li>
+	<li><button class="btn btn-link" data-action="ilias.php?ref_id=3279727&cmd=frameset&cmdClass=ilrepositorygui&cmdNode=y7&baseClass=ilrepositorygui" id="il_ui_fw_619bf22fca0468_38642591">7 Mathematisch-Naturwissenschaftliche Fakultät</button>
+</li>
+	<li><button class="btn btn-link" data-action="ilias.php?ref_id=3279415&cmd=frameset&cmdClass=ilrepositorygui&cmdNode=y7&baseClass=ilrepositorygui" id="il_ui_fw_619bf22fca0a38_04879705"><b>Wintersemester 2021-22</b></button>
+</li>
+	<li><button class="btn btn-link" data-action="ilias.php?ref_id=1&cmd=frameset&cmdClass=ilrepositorygui&cmdNode=y7&baseClass=ilrepositorygui" id="il_ui_fw_619bf22fca1004_54740902">Veranstaltungen (Magazin)</button>
+</li>
+</ul>
+</div>
+
+				</nav>
+				
+				<div class="il-maincontrols-metabar" id="il_ui_fw_619bf22fc834f6_89171318" role="menubar" aria-label="Metaleiste">
+	<div class="il-metabar-entries" style="visibility: hidden"><!--if done via class/css-files, visibility is being applied too late -->
+		
+			<button class="btn btn-bulky" data-action="" id="il_ui_fw_619bf22fc77a35_13834455"      ><span class="glyph" aria-label="Hilfe">
+<span class="glyphicon
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ glyphicon-question-sign
+
+
+
+
+
+
+
+
+
+" aria-hidden="true"></span>
+
+
+
+
+
+
+
+</span>
+<span class="bulky-label">Hilfe</span></button>
+
+		
+			<button class="btn btn-bulky" id="il_ui_fw_619bf22fc79b04_47681154"  role="menuitem"  aria-haspopup="true"   aria-pressed="false"  ><span class="glyph" aria-label="Suche">
+<span class="glyphicon
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ glyphicon-search
+
+
+
+
+
+
+
+
+
+
+" aria-hidden="true"></span>
+
+
+
+
+
+
+
+</span>
+<span class="bulky-label">Suche</span></button>
+
+		
+			<button class="btn btn-bulky" id="il_ui_fw_619bf22fc7c1e3_19056868"  role="menuitem"  aria-haspopup="true"   aria-pressed="false"  ><div class="il-avatar il-avatar-letter il-avatar-size-large il-avatar-letter-color-9" aria-label="i.">
+	<span class="abbreviation">i.</span>
+</div>
+<span class="bulky-label">Benutzer</span></button>
+
+		
+			<button class="btn btn-bulky" id="il_ui_fw_619bf22fc80c55_59887031"  role="menuitem"  aria-haspopup="true"   aria-pressed="false"  ><span class="glyph" aria-label="Aufdecken">
+<span class="glyphicon
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ glyphicon-option-vertical
+
+
+
+
+" aria-hidden="true"></span>
+
+
+<span class="il-counter">
+	
+	<span class="badge badge-notify il-counter-status" style="display:none">0</span>
+	
+	
+</span>
+
+
+
+<span class="il-counter">
+	
+	
+	<span class="badge badge-notify il-counter-novelty" style="display:none">0</span>
+	
+</span>
+
+
+
+
+</span>
+<span class="bulky-label">more</span></button>
+
+		
+	</div>
+	<div class="il-metabar-slates">
+		
+		<div class="il-maincontrols-slate disengaged" id="il_ui_fw_619bf22fc7b9d6_62454498" role="menu">
+	<div class="il-maincontrols-slate-content" data-replace-marker="content">
+		<form class="" role="search" id="mm_search_form" action="ilias.php?baseClass=ilSearchController&cmd=post&rtoken=b238d5a069f346e5c9788618e5823620&fallbackCmd=remoteSearch" method="post" target="_top">
+	<div class="input-group">
+		<input aria-label="Sucheingabefeld" id="main_menu_search" class="form-control" type="text" name="queryString"> <span class="input-group-btn">
+				<input type="submit" class="btn btn-default" type="button" value="Suche"/>
+			</span>
+	</div>
+	
+	<div id="ilMMSearchMenu">
+		<p><a id="search_link" target="_top" href="ilias.php?baseClass=ilSearchController">» Letztes Suchergebnis</a></p>
+		<div id="mm_search_menu_options" aria-label="Suchbereich">
+			<p><input type="radio" name="root_id" value="1" checked="checked" id="ilmmsg"/> <label for="ilmmsg"> Im gesamten Magazin</label><br/>
+			
+			<input type="radio" name="root_id" value="3405237" id="ilmmsc"/> <label for="ilmmsc"> An der aktuellen Position</label></p>
+			
+			
+			
+		</div>
+	</div>
+	
+	<div id="mm_search_menu_ac"></div>
+	<script>
+        il.Util.addOnLoad(
+            function () {
+                if (typeof $ != "undefined") {
+                    // we must bind the blur event before the autocomplete
+                    // item is added
+                    $("#main_menu_search").on("blur", function (e) {
+                        // prevent that the autocomplete list disappears when blur occurs
+                        e.stopImmediatePropagation();
+                    });
+
+                    $("#main_menu_search").autocomplete({
+                        source: "ilias.php?baseClass=ilSearchController&cmd=autoComplete" + "&search_type=4",
+                        appendTo: "#mm_search_menu_ac",
+                        open: function (event, ui) {
+                            $(".ui-autocomplete").position({
+                                my: "left top",
+                                at: "left top",
+                                of: $("#mm_search_menu_ac")
+                            })
+                        },
+                        /*close: function(event, ui) {
+						 alert("close");
+						 console.log(event);
+						 console.log(ui);
+						 return false;
+						 },*/
+                        minLength: 3
+                    });
+
+
+                    $("#ilMMSearchMenu input[type='radio']").change(function () {
+                        $("#main_menu_search").focus();
+
+                        /* close current search */
+                        $("#main_menu_search").autocomplete("close");
+
+                        /* append search type */
+
+                        var orig_datasource = "ilias.php?baseClass=ilSearchController&cmd=autoComplete";
+                        var type_val = $('input[name=root_id]:checked', '#mm_search_form').val();
+
+                        $("#main_menu_search").autocomplete("option",
+                            {
+                                source: orig_datasource + "&search_type=" + type_val
+                            });
+
+                        /* start new search */
+                        $("#main_menu_search").autocomplete("search");
+                    });
+                }
+            }
+        );
+	</script>
+</form>
+
+	</div>
+</div>
+
+		
+		<div class="il-maincontrols-slate disengaged" id="il_ui_fw_619bf22fc803e4_47660707" role="menu">
+	<div class="il-maincontrols-slate-content" data-replace-marker="content">
+		<a class="il-link link-bulky" href="https://ovidius.uni-tuebingen.de/ilias3/ilias.php?baseClass=ilDashboardGUI&cmd=jumpToProfile" ><div class="icon custom small" aria-label="Profil und Datenschutz">
+
+	<img src="./Customizing/global/skin/unituebingen6_Ovid/images/icon_profile.svg" />
+
+
+</div>
+<span class="bulky-label">Profil und Datenschutz</span></a><a class="il-link link-bulky" href="https://ovidius.uni-tuebingen.de/ilias3/ilias.php?baseClass=ilDashboardGUI&cmd=jumpToSettings" ><div class="icon custom small" aria-label="Einstellungen">
+
+	<img src="./Customizing/global/skin/unituebingen6_Ovid/images/icon_personal_settings.svg" />
+
+
+</div>
+<span class="bulky-label">Einstellungen</span></a><a class="il-link link-bulky" href="https://ovidius.uni-tuebingen.de/ilias3/logout.php?lang=de" ><span class="glyph" aria-label="Abmelden">
+<span class="glyphicon
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ glyphicon-logout
+
+" aria-hidden="true"></span>
+
+
+
+
+
+
+
+</span>
+<span class="bulky-label">Abmelden</span></a>
+	</div>
+</div>
+
+		
+		<div class="il-maincontrols-slate disengaged" id="il_ui_fw_619bf22fc832c5_08574581" role="menu">
+	<div class="il-maincontrols-slate-content" data-replace-marker="content">
+		
+	</div>
+</div>
+
+		
+	</div>
+</div>
+
+			</div>
+		</header>
+
+		<div class="breadcrumbs">
+			<nav aria-label="Brotkrumen" class="breadcrumb_wrapper">
+	<div class="breadcrumb">
+		
+		<span class="crumb">
+			<a href="ilias.php?ref_id=1&cmd=frameset&cmdClass=ilrepositorygui&cmdNode=y7&baseClass=ilrepositorygui" >Veranstaltungen (Magazin)</a>
+		</span>
+		
+		<span class="crumb">
+			<a href="ilias.php?ref_id=3279415&cmd=frameset&cmdClass=ilrepositorygui&cmdNode=y7&baseClass=ilrepositorygui" ><b>Wintersemester 2021-22</b></a>
+		</span>
+		
+		<span class="crumb">
+			<a href="ilias.php?ref_id=3279727&cmd=frameset&cmdClass=ilrepositorygui&cmdNode=y7&baseClass=ilrepositorygui" >7 Mathematisch-Naturwissenschaftliche Fakultät</a>
+		</span>
+		
+		<span class="crumb">
+			<a href="ilias.php?ref_id=3279778&cmd=frameset&cmdClass=ilrepositorygui&cmdNode=y7&baseClass=ilrepositorygui" >Informatik</a>
+		</span>
+		
+		<span class="crumb">
+			<a href="ilias.php?ref_id=3279803&cmd=frameset&cmdClass=ilrepositorygui&cmdNode=y7&baseClass=ilrepositorygui" >Methods of Machine Learning (Prof. Hennig)</a>
+		</span>
+		
+		<span class="crumb">
+			<a href="ilias.php?ref_id=3334251&cmd=frameset&cmdClass=ilrepositorygui&cmdNode=y7&baseClass=ilrepositorygui" >Data Literacy</a>
+		</span>
+		
+		<span class="crumb">
+			<a href="ilias.php?ref_id=3405237&cmd=showOverview&cmdClass=ilobjexercisegui&cmdNode=bs:ob&baseClass=ilExerciseHandlerGUI" >Exercise Sheets</a>
+		</span>
+		
+	</div>
+</nav>
+		</div>
+
+		<div class="nav il-maincontrols">
+			<div class="il-maincontrols-mainbar" id="il_ui_fw_619bf22fc9a100_13797249">
+	<nav class="il-mainbar" aria-label="Hauptleiste">
+		
+		<div class="il-mainbar-tools-button">
+			<button class="btn btn-bulky engaged" id="il_ui_fw_619bf22fc98169_83813383"  role="menuitem"  aria-haspopup="true"   aria-pressed="true"  ><div class="icon custom small" aria-label="Mehr">
+
+	<img src="./Customizing/global/skin/unituebingen6_Ovid/images/outlined/icon_tool.svg" />
+
+
+</div>
+<span class="bulky-label">Tools</span></button>
+
+		</div>
+		
+
+		<div class="il-mainbar-triggers">
+			<div class="il-mainbar-entries" role="menubar" style="visibility: hidden"><!--if done via class/css-files, visibility is being applied too late -->
+				
+				<a class="il-link link-bulky" href="https://ovidius.uni-tuebingen.de/ilias3/ilias.php?baseClass=ilDashboardGUI&cmd=jumpToMemberships"  id="il_ui_fw_619bf22fc853d9_44870294"><div class="icon dshs small outlined" aria-label="Dashboard">
+
+
+</div>
+<span class="bulky-label">Dashboard</span></a>
+				
+				<button class="btn btn-bulky" id="il_ui_fw_619bf22fc85b88_81480524"  role="menuitem"  aria-haspopup="true"    ><div class="icon rep small outlined" aria-label="Magazin">
+
+
+</div>
+<span class="bulky-label">Magazin</span></button>
+
+				
+				<button class="btn btn-bulky" id="il_ui_fw_619bf22fc8adb0_79582937"  role="menuitem"  aria-haspopup="true"    ><div class="icon custom small" aria-label="Persönlicher Arbeitsraum">
+
+	<img src="./Customizing/global/skin/unituebingen6_Ovid/images/outlined/icon_wksp.svg" />
+
+
+</div>
+<span class="bulky-label">Persönlicher Arbeitsraum</span></button>
+
+				
+				<button class="btn btn-bulky" id="il_ui_fw_619bf22fc90528_93709455"  role="menuitem"  aria-haspopup="true"    ><div class="icon custom small" aria-label="Kommunikation">
+
+	<img src="./Customizing/global/skin/unituebingen6_Ovid/images/outlined/icon_comu.svg" />
+
+
+</div>
+<span class="bulky-label">Kommunikation</span></button>
+
+				
+				<button class="btn btn-bulky" id="il_ui_fw_619bf22fc94ad2_93704942"  role="menuitem"  aria-haspopup="true"    ><span class="glyph" aria-label="Mehr zeigen">
+<span class="glyphicon
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ glyphicon-option-horizontal
+
+
+
+
+
+" aria-hidden="true"></span>
+
+
+
+
+
+
+
+</span>
+<span class="bulky-label">Mehr</span></button>
+
+				
+			</div>
+		</div>
+	</nav>
+
+	<div class="il-mainbar-slates">
+		<div class="il-mainbar-tools-entries">
+			<div class="il-mainbar-tools-entries-bg">
+				
+				<div class="il-mainbar-tool-trigger-item">
+					<button class="btn btn-bulky" id="il_ui_fw_619bf22fc96a54_89274800"  role="menuitem"  aria-haspopup="true"    ><div class="icon hlps small outlined" aria-label="Hilfe">
+
+
+</div>
+<span class="bulky-label">Hilfe</span></button>
+
+				</div>
+				
+			</div>
+			
+		</div>
+		
+		<div class="il-maincontrols-slate disengaged" id="il_ui_fw_619bf22fc8a602_53534383" data-depth-level="1" role="menu">
+	<div class="il-maincontrols-slate-content" data-replace-marker="content">
+		<a class="il-link link-bulky" href="https://ovidius.uni-tuebingen.de/ilias3/goto.php?target=root_1&client_id=pr02" ><div class="icon root small outlined" aria-label="Veranstaltungen (Magazin) - Einstiegsseite">
+
+
+</div>
+<span class="bulky-label">Veranstaltungen - Einstiegsseite</span></a><button class="btn btn-bulky" id="il_ui_fw_619bf22fc877a3_31470427"      ><div class="icon custom small" aria-label="Baumansicht">
+
+	<img src="./Customizing/global/skin/unituebingen6_Ovid/images/outlined/icon_reptr.svg" />
+
+
+</div>
+<span class="bulky-label">Baumansicht</span></button>
+<div class="il-maincontrols-slate disengaged" id="il_ui_fw_619bf22fc884b4_84505775" data-depth-level="2">
+	<div class="il-maincontrols-slate-content" data-replace-marker="content">
+		<div id="il_expl2_jstree_cont_out_rep_exp" class="ilNoDisplay ilExplorerContainer">
+	<div id="il_expl2_jstree_cont_rep_exp">
+		
+	</div>
+</div>
+
+	</div>
+</div>
+<button class="btn btn-bulky" id="il_ui_fw_619bf22fc88b81_24175155"      ><div class="icon custom small" aria-label="Baumansicht">
+
+	<img src="./Customizing/global/skin/unituebingen6_Ovid/images/outlined/icon_lstv.svg" />
+
+
+</div>
+<span class="bulky-label">Zuletzt besucht</span></button>
+<div class="il-maincontrols-slate disengaged" id="il_ui_fw_619bf22fc898f1_77001746" data-depth-level="2">
+	<div class="il-maincontrols-slate-content" data-replace-marker="content">
+		...
+	</div>
+</div>
+<a class="il-link link-bulky" href="https://ovidius.uni-tuebingen.de/ilias3/ilias.php?cmdClass=ilmembershipoverviewgui&cmdNode=k2&baseClass=ilmembershipoverviewgui" ><div class="icon custom small" aria-label="Meine Kurse und Gruppen">
+
+	<img src="./Customizing/global/skin/unituebingen6_Ovid/images/outlined/icon_crgr.svg" />
+
+
+</div>
+<span class="bulky-label">Meine Kurse und Gruppen</span></a>
+	</div>
+</div>
+
+		
+		<div class="il-maincontrols-slate disengaged" id="il_ui_fw_619bf22fc8fd41_45074598" data-depth-level="1" role="menu">
+	<div class="il-maincontrols-slate-content" data-replace-marker="content">
+		<button class="btn btn-bulky" id="il_ui_fw_619bf22fc8bef7_17960268"      ><div class="icon custom small" aria-label="Favoriten">
+
+	<img src="./Customizing/global/skin/unituebingen6_Ovid/images/outlined/icon_fav.svg" />
+
+
+</div>
+<span class="bulky-label">Favoriten</span></button>
+<div class="il-maincontrols-slate disengaged" id="il_ui_fw_619bf22fc8cc76_98016534" data-depth-level="2">
+	<div class="il-maincontrols-slate-content" data-replace-marker="content">
+		...
+	</div>
+</div>
+<a class="il-link link-bulky" href="https://ovidius.uni-tuebingen.de/ilias3/ilias.php?baseClass=ilDashboardGUI&cmd=jumpToCalendar" ><div class="icon cals small outlined" aria-label="Kalender">
+
+
+</div>
+<span class="bulky-label">Kalender</span></a><a class="il-link link-bulky" href="https://ovidius.uni-tuebingen.de/ilias3/ilias.php?cmdClass=ilderivedtasksgui&cmdNode=aj&baseClass=ilderivedtasksgui" ><div class="icon task small outlined" aria-label="To-Dos">
+
+
+</div>
+<span class="bulky-label">To-Dos</span></a><a class="il-link link-bulky" href="https://ovidius.uni-tuebingen.de/ilias3/ilias.php?baseClass=ilDashboardGUI&cmd=jumpToPortfolio" ><div class="icon prfa small outlined" aria-label="Portfolio">
+
+
+</div>
+<span class="bulky-label">Portfolio</span></a><a class="il-link link-bulky" href="https://ovidius.uni-tuebingen.de/ilias3/ilias.php?baseClass=ilDashboardGUI&cmd=jumpToWorkspace" ><div class="icon fold small outlined" aria-label="Persönliche und geteilte Ressourcen">
+
+
+</div>
+<span class="bulky-label">Persönliche und geteilte Ressourcen</span></a><a class="il-link link-bulky" href="https://ovidius.uni-tuebingen.de/ilias3/ilias.php?cmd=showPrivateNotes&cmdClass=ilpdnotesgui&cmdNode=9p:wd&baseClass=ildashboardgui" ><div class="icon nots small outlined" aria-label="Notizen">
+
+
+</div>
+<span class="bulky-label">Notizen</span></a>
+	</div>
+</div>
+
+		
+		<div class="il-maincontrols-slate disengaged" id="il_ui_fw_619bf22fc941e2_14113484" data-depth-level="1" role="menu">
+	<div class="il-maincontrols-slate-content" data-replace-marker="content">
+		<a class="il-link link-bulky" href="https://ovidius.uni-tuebingen.de/ilias3/ilias.php?baseClass=ilRepositoryGUI&cmd=view&ref_id=402272" ><div class="icon chta small outlined" aria-label="Öffentlicher Chatraum">
+
+
+</div>
+<span class="bulky-label">Öffentlicher Chatraum</span></a><a class="il-link link-bulky" href="https://ovidius.uni-tuebingen.de/ilias3/ilias.php?baseClass=ilMailGUI" ><div class="icon mail small outlined" aria-label="Mail">
+
+
+</div>
+<span class="bulky-label">Mail</span></a><a class="il-link link-bulky" href="https://ovidius.uni-tuebingen.de/ilias3/ilias.php?baseClass=ilDashboardGUI&cmd=jumpToContacts" ><div class="icon cadm small outlined" aria-label="contacts">
+
+
+</div>
+<span class="bulky-label">Kontakte</span></a><a class="il-link link-bulky" href="https://ovidius.uni-tuebingen.de/ilias3/ilias.php?baseClass=ilDashboardGUI&cmd=jumpToNews" ><div class="icon nwss small outlined" aria-label="News">
+
+
+</div>
+<span class="bulky-label">News</span></a><a class="il-link link-bulky" href="https://ovidius.uni-tuebingen.de/ilias3/ilias.php?cmd=showPublicComments&cmdClass=ilpdnotesgui&cmdNode=9p:wd&baseClass=ildashboardgui" ><div class="icon coms small outlined" aria-label="Kommentare">
+
+
+</div>
+<span class="bulky-label">Kommentare</span></a>
+	</div>
+</div>
+
+		
+		<div class="il-maincontrols-slate disengaged" id="il_ui_fw_619bf22fc96138_41426362" data-depth-level="1" role="menu">
+	<div class="il-maincontrols-slate-content" data-replace-marker="content">
+		
+	</div>
+</div>
+
+		
+		<div class="il-maincontrols-slate disengaged" id="il_ui_fw_619bf22fc97998_43567081" data-depth-level="1" role="menu">
+	<div class="il-maincontrols-slate-content" data-replace-marker="content">
+		<div id='ilHelpPanel'>&nbsp;</div>
+	</div>
+</div>
+
+		
+
+		<div class="il-mainbar-close-slates">
+			<button class="btn btn-bulky" id="il_ui_fw_619bf22fc99021_52907918"      ><span class="glyph" href="#" aria-label="Zurück">
+<span class="glyphicon
+
+
+
+
+
+
+
+ glyphicon-chevron-left
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+" aria-hidden="true"></span>
+
+
+
+
+
+
+
+</span>
+<span class="bulky-label">close</span></button>
+
+		</div>
+
+	</div>
+
+
+</div>
+
+		</div>
+
+		<!-- html5 main-tag is not supported in IE / div is needed -->
+		<main class="il-layout-page-content">
+			<div>
+				
+				
+
+
+
+<div id="mainspacekeeper" class="container-fluid ">
+	<div class="row" style="position: relative;">
+		
+		<div id="fixed_content" class=" ilContentFixed" >
+			<div id="mainscrolldiv" >
+				
+
+				
+
+				<div class="media il_HeaderInner">
+					
+					<div class="ilHeadAction hidden-print" id="il_head_action">
+						<div id="tttt" style="white-space:nowrap;"> 
+<div class="btn-group">
+<!-- Important: The next a-tag had a this.blur(); in the onclick event before. Please do not add it again, see bug #8723 -->
+<button type="button"  class="btn btn-default dropdown-toggle" data-toggle="dropdown" data-container="body" id="ilAdvSelListAnchorText_act_3405237_pref_3405237">
+<span><span class='hidden-xs'>Aktionen</span></span> <span class="sr-only"></span><span class="caret"></span>
+</button>
+
+
+<ul class="dropdown-menu pull-right" role="menu" id="ilAdvSelListTable_act_3405237_pref_3405237">
+	
+	
+	
+	<li onclick="return ilNotes.listNotes(event, '1;3405237;exc;4079369;;0;0', 'il.Object.redrawActionHeader();');;">
+	<a  href="#" target="_top"><span class="xsmall">Notizen</span></a>
+	</li>
+	
+	
+	
+</ul>
+
+</div>
+<script>
+il.AdvancedSelectionList.init['act_3405237_pref_3405237'] = function ()
+{
+	il.AdvancedSelectionList.add('act_3405237_pref_3405237', {"trigger_event":"click","auto_hide":false,"anchor_id":"ilAdvSelListAnchorElement_act_3405237_pref_3405237","asynch":false,"asynch_url":"","toggle_el":"lg_div_3405237_pref_3405237","toggle_class_on":"ilContainerListItemOuterHighlight"});
+	
+	il.AdvancedSelectionList.addItem('act_3405237_pref_3405237', '', '', 'Notizen');
+	
+	
+};
+il.AdvancedSelectionList.init['act_3405237_pref_3405237']();
+
+
+</script>
+</div>
+
+					</div>
+					
+					<div class="ilHeadAction hidden-print" id="il_head_action">
+						
+					</div>
+					
+
+					
+					
+					<img id="headerimage" class="media-object" src="./Customizing/global/skin/unituebingen6_Ovid/images/icon_exc.svg" alt="Symbol Übung" title="Symbol Übung" />
+					
+					<h1 class="media-heading ilHeader "><a tabindex="0" class="ilAccAnchor" id="il_mhead_t_focus" name="il_mhead_t_focus" >Exercise Sheets</a></h1>
+					
+					<div class="media-body">
+						
+						<div class="ilHeaderDesc">can be downloaded and submitted here.</div>
+						
+					</div>
+				</div>
+
+				
+
+				
+
+				<div class="ilClearFloat"></div>
+
+				<h2 class="ilAccHeadingHidden">Reiter</h2>
+<ul id="ilTab" class="nav nav-tabs ilCollapsable hidden-print">
+	
+	
+	
+	<li id="tab_content" class="active"><a href="ilias.php?ref_id=3405237&cmd=showOverview&cmdClass=ilobjexercisegui&cmdNode=bs:ob&baseClass=ilExerciseHandlerGUI" >Übungseinheiten</a> <span class="ilAccHidden">(Ausgewählt)</span></li>
+	
+	<li id="tab_info" class=""><a href="ilias.php?ref_id=3405237&cmd=showSummary&cmdClass=ilinfoscreengui&cmdNode=bs:ob:f3&baseClass=ilExerciseHandlerGUI" >Info</a></li>
+	
+	<li id="tab_learning_progress" class=""><a href="ilias.php?ref_id=3405237&cmdClass=illearningprogressgui&cmdNode=bs:ob:fz&baseClass=ilExerciseHandlerGUI" >Lernfortschritt</a></li>
+	
+	<li id="ilLastTab">
+		<a class="btn dropdown-toggle ilNoDisplay" data-toggle="dropdown" href="#">
+			... <span class="caret"></span>
+		</a>
+		<ul class="dropdown-menu" id="ilTabDropDown">
+		</ul>
+	</li>
+</ul>
+<span class="ilAccHidden"><a id="after_tabs"></a></span>
+
+				<div class="ilTabsContentOuter"><div class="clearfix"></div>
+				
+				<span class="ilAccHidden"><a id="after_sub_tabs" name="after_sub_tabs"></a></span>
+				
+				
+				
+				
+
+					<div>
+						
+					</div>
+
+					<div class="container-fluid" id="ilContentContainer">
+						<div class="row">
+
+							<div id="il_center_col" class="col-sm-12">
+								
+								
+								
+								<div class="ilExcOverview">
+	<div id="accordion_exc_ow_4079369_1" class="il_VAccordionContainer" >
+
+<div class="il_VAccordionInnerContainer">
+    <div class="il_VAccordionToggleDef"><div tabindex="0" role="button" class="il_VAccordionHead" aria-expanded="false" style=""><span class="ilExcAssignmentHead">
+	<img src="./Customizing/global/skin/unituebingen6_Ovid/images/scorm/not_attempted.svg" alt="Nicht bewertet" title="Nicht bewertet" />
+	<span class="ilAssignmentHeader">Exercise Sheet #1</span>
+	<span class="ilExAssignmentHeadProperty">Beendet am: 25. Okt 2021, 10:20</span>&nbsp;&nbsp;
+</span></div></div>
+    <div class="il_VAccordionContentDef ilAccHideContent"><div class="il_VAccordionContent" style=""><div class="ilExcAssignmentBody">
+
+<form name="formInfoScreen" method="post" action="ilias.php?ref_id=3405237&cmd=post&cmdClass=ilinfoscreengui&cmdNode=bs:ob:f3&baseClass=ilExerciseHandlerGUI&rtoken=b238d5a069f346e5c9788618e5823620">
+
+
+
+
+<div class="ilInfoScreenSec form-horizontal" id="infoscreen_section_1">
+	<h2 class="ilHeader">Arbeitsanweisung</h2>
+	
+	
+	<div class="form-group">
+		<div class="il_InfoScreenPropertyValue col-xs-offset-3 col-xs-9"><p>See attached files.</p></div>
+	</div>
+	
+</div>
+
+<div class="ilInfoScreenSec form-horizontal" id="infoscreen_section_2">
+	<h2 class="ilHeader">Dateien</h2>
+	
+	<div class="form-group">
+		<div class="il_InfoScreenProperty control-label col-xs-3">Exercise_01.pdf</div>
+		<div class="il_InfoScreenPropertyValue col-xs-9">
+			
+			<a href="ilias.php?ref_id=3405237&file=Exercise_01.pdf&ass_id=42735&cmd=downloadFile&cmdClass=ilexsubmissiongui&cmdNode=bs:ob:c8&baseClass=ilExerciseHandlerGUI">Download</a>
+		</div>
+	</div>
+	
+	<div class="form-group">
+		<div class="il_InfoScreenProperty control-label col-xs-3">ExerciseSheet_1.ipynb</div>
+		<div class="il_InfoScreenPropertyValue col-xs-9">
+			
+			<a href="ilias.php?ref_id=3405237&file=ExerciseSheet_1.ipynb&ass_id=42735&cmd=downloadFile&cmdClass=ilexsubmissiongui&cmdNode=bs:ob:c8&baseClass=ilExerciseHandlerGUI">Download</a>
+		</div>
+	</div>
+	
+	
+</div>
+
+<div class="ilInfoScreenSec form-horizontal" id="infoscreen_section_3">
+	<h2 class="ilHeader">Terminplan</h2>
+	
+	<div class="form-group">
+		<div class="il_InfoScreenProperty control-label col-xs-3">Startzeit</div>
+		<div class="il_InfoScreenPropertyValue col-xs-9">
+			18. Okt 2021, 10:00
+			
+		</div>
+	</div>
+	
+	<div class="form-group">
+		<div class="il_InfoScreenProperty control-label col-xs-3">Beendet am</div>
+		<div class="il_InfoScreenPropertyValue col-xs-9">
+			25. Okt 2021, 10:20
+			
+		</div>
+	</div>
+	
+	<div class="form-group">
+		<div class="il_InfoScreenProperty control-label col-xs-3">Verbleibende Bearbeitungsdauer</div>
+		<div class="il_InfoScreenPropertyValue col-xs-9">
+			<b>Die Zeit ist abgelaufen.</b>
+			
+		</div>
+	</div>
+	
+	
+</div>
+
+<div class="ilInfoScreenSec form-horizontal" id="infoscreen_section_4">
+	<h2 class="ilHeader">Ihre Einreichung</h2>
+	
+	<div class="form-group">
+		<div class="il_InfoScreenProperty control-label col-xs-3">Team-Mitglieder</div>
+		<div class="il_InfoScreenPropertyValue col-xs-9">
+			[d.loefflad]; [i.wenger]<br><br><a class="btn btn-default" href="ilias.php?ref_id=3405237&ass_id=42735&cmd=submissionScreenTeam&cmdClass=ilexsubmissionteamgui&cmdNode=bs:ob:c8:ca&baseClass=ilExerciseHandlerGUI">&nbsp;Team verwalten&nbsp;</a>
+			
+		</div>
+	</div>
+	
+	<div class="form-group">
+		<div class="il_InfoScreenProperty control-label col-xs-3">Abgegebene Dateien</div>
+		<div class="il_InfoScreenPropertyValue col-xs-9">
+			exercise_01_Wenger_4029524_Löfflad_4017947.pdf<br><br><a class="btn btn-default" href="ilias.php?ref_id=3405237&ass_id=42735&cmd=submissionScreen&cmdClass=ilexsubmissionfilegui&cmdNode=bs:ob:c8:c7&baseClass=ilExerciseHandlerGUI">&nbsp;Bereits abgegebene Dateien&nbsp;</a>
+			
+		</div>
+	</div>
+	
+	<div class="form-group">
+		<div class="il_InfoScreenProperty control-label col-xs-3">Datum der letzten Abgabe</div>
+		<div class="il_InfoScreenPropertyValue col-xs-9">
+			24. Okt 2021, 18:17
+			
+		</div>
+	</div>
+	
+	
+</div>
+
+
+
+</form>
+
+
+
+
+</div>
+</div></div>
+</div>
+
+<div class="il_VAccordionInnerContainer">
+    <div class="il_VAccordionToggleDef"><div tabindex="0" role="button" class="il_VAccordionHead" aria-expanded="false" style=""><span class="ilExcAssignmentHead">
+	<img src="./Customizing/global/skin/unituebingen6_Ovid/images/scorm/not_attempted.svg" alt="Nicht bewertet" title="Nicht bewertet" />
+	<span class="ilAssignmentHeader">Exercise Sheet #2</span>
+	<span class="ilExAssignmentHeadProperty">Beendet am: 08. Nov 2021, 10:15</span>&nbsp;&nbsp;
+</span></div></div>
+    <div class="il_VAccordionContentDef ilAccHideContent"><div class="il_VAccordionContent" style=""><div class="ilExcAssignmentBody">
+
+<form name="formInfoScreen" method="post" action="ilias.php?ref_id=3405237&cmd=post&cmdClass=ilinfoscreengui&cmdNode=bs:ob:f3&baseClass=ilExerciseHandlerGUI&rtoken=b238d5a069f346e5c9788618e5823620">
+
+
+
+
+<div class="ilInfoScreenSec form-horizontal" id="infoscreen_section_1">
+	<h2 class="ilHeader">Arbeitsanweisung</h2>
+	
+	
+	<div class="form-group">
+		<div class="il_InfoScreenPropertyValue col-xs-offset-3 col-xs-9"><p>See attached files.</p></div>
+	</div>
+	
+</div>
+
+<div class="ilInfoScreenSec form-horizontal" id="infoscreen_section_2">
+	<h2 class="ilHeader">Dateien</h2>
+	
+	<div class="form-group">
+		<div class="il_InfoScreenProperty control-label col-xs-3">Exercise_02.pdf</div>
+		<div class="il_InfoScreenPropertyValue col-xs-9">
+			
+			<a href="ilias.php?ref_id=3405237&file=Exercise_02.pdf&ass_id=43088&cmd=downloadFile&cmdClass=ilexsubmissiongui&cmdNode=bs:ob:c8&baseClass=ilExerciseHandlerGUI">Download</a>
+		</div>
+	</div>
+	
+	<div class="form-group">
+		<div class="il_InfoScreenProperty control-label col-xs-3">ExerciseSheet_2.ipynb</div>
+		<div class="il_InfoScreenPropertyValue col-xs-9">
+			
+			<a href="ilias.php?ref_id=3405237&file=ExerciseSheet_2.ipynb&ass_id=43088&cmd=downloadFile&cmdClass=ilexsubmissiongui&cmdNode=bs:ob:c8&baseClass=ilExerciseHandlerGUI">Download</a>
+		</div>
+	</div>
+	
+	<div class="form-group">
+		<div class="il_InfoScreenProperty control-label col-xs-3">data.zip</div>
+		<div class="il_InfoScreenPropertyValue col-xs-9">
+			
+			<a href="ilias.php?ref_id=3405237&file=data.zip&ass_id=43088&cmd=downloadFile&cmdClass=ilexsubmissiongui&cmdNode=bs:ob:c8&baseClass=ilExerciseHandlerGUI">Download</a>
+		</div>
+	</div>
+	
+	
+</div>
+
+<div class="ilInfoScreenSec form-horizontal" id="infoscreen_section_3">
+	<h2 class="ilHeader">Terminplan</h2>
+	
+	<div class="form-group">
+		<div class="il_InfoScreenProperty control-label col-xs-3">Startzeit</div>
+		<div class="il_InfoScreenPropertyValue col-xs-9">
+			25. Okt 2021, 10:20
+			
+		</div>
+	</div>
+	
+	<div class="form-group">
+		<div class="il_InfoScreenProperty control-label col-xs-3">Beendet am</div>
+		<div class="il_InfoScreenPropertyValue col-xs-9">
+			08. Nov 2021, 10:15
+			
+		</div>
+	</div>
+	
+	<div class="form-group">
+		<div class="il_InfoScreenProperty control-label col-xs-3">Verbleibende Bearbeitungsdauer</div>
+		<div class="il_InfoScreenPropertyValue col-xs-9">
+			<b>Die Zeit ist abgelaufen.</b>
+			
+		</div>
+	</div>
+	
+	
+</div>
+
+<div class="ilInfoScreenSec form-horizontal" id="infoscreen_section_4">
+	<h2 class="ilHeader">Ihre Einreichung</h2>
+	
+	<div class="form-group">
+		<div class="il_InfoScreenProperty control-label col-xs-3">Team-Mitglieder</div>
+		<div class="il_InfoScreenPropertyValue col-xs-9">
+			[d.loefflad]; [i.wenger]<br><br><a class="btn btn-default" href="ilias.php?ref_id=3405237&ass_id=43088&cmd=submissionScreenTeam&cmdClass=ilexsubmissionteamgui&cmdNode=bs:ob:c8:ca&baseClass=ilExerciseHandlerGUI">&nbsp;Team verwalten&nbsp;</a>
+			
+		</div>
+	</div>
+	
+	<div class="form-group">
+		<div class="il_InfoScreenProperty control-label col-xs-3">Abgegebene Dateien</div>
+		<div class="il_InfoScreenPropertyValue col-xs-9">
+			exercise_02_Wenger_4029524_Löfflad_4017947.pdf<br><br><a class="btn btn-default" href="ilias.php?ref_id=3405237&ass_id=43088&cmd=submissionScreen&cmdClass=ilexsubmissionfilegui&cmdNode=bs:ob:c8:c7&baseClass=ilExerciseHandlerGUI">&nbsp;Bereits abgegebene Dateien&nbsp;</a>
+			
+		</div>
+	</div>
+	
+	<div class="form-group">
+		<div class="il_InfoScreenProperty control-label col-xs-3">Datum der letzten Abgabe</div>
+		<div class="il_InfoScreenPropertyValue col-xs-9">
+			08. Nov 2021, 00:04
+			
+		</div>
+	</div>
+	
+	
+</div>
+
+
+
+</form>
+
+
+
+
+</div>
+</div></div>
+</div>
+
+<div class="il_VAccordionInnerContainer">
+    <div class="il_VAccordionToggleDef"><div tabindex="0" role="button" class="il_VAccordionHead" aria-expanded="false" style=""><span class="ilExcAssignmentHead">
+	<img src="./Customizing/global/skin/unituebingen6_Ovid/images/scorm/not_attempted.svg" alt="Nicht bewertet" title="Nicht bewertet" />
+	<span class="ilAssignmentHeader">Exercise Sheet #3</span>
+	<span class="ilExAssignmentHeadProperty">Beendet am: 15. Nov 2021, 10:15</span>&nbsp;&nbsp;
+</span></div></div>
+    <div class="il_VAccordionContentDef ilAccHideContent"><div class="il_VAccordionContent" style=""><div class="ilExcAssignmentBody">
+
+<form name="formInfoScreen" method="post" action="ilias.php?ref_id=3405237&cmd=post&cmdClass=ilinfoscreengui&cmdNode=bs:ob:f3&baseClass=ilExerciseHandlerGUI&rtoken=b238d5a069f346e5c9788618e5823620">
+
+
+
+
+<div class="ilInfoScreenSec form-horizontal" id="infoscreen_section_1">
+	<h2 class="ilHeader">Arbeitsanweisung</h2>
+	
+	
+	<div class="form-group">
+		<div class="il_InfoScreenPropertyValue col-xs-offset-3 col-xs-9"><p>See attached files.</p></div>
+	</div>
+	
+</div>
+
+<div class="ilInfoScreenSec form-horizontal" id="infoscreen_section_2">
+	<h2 class="ilHeader">Dateien</h2>
+	
+	<div class="form-group">
+		<div class="il_InfoScreenProperty control-label col-xs-3">Exercise_03.pdf</div>
+		<div class="il_InfoScreenPropertyValue col-xs-9">
+			
+			<a href="ilias.php?ref_id=3405237&file=Exercise_03.pdf&ass_id=44373&cmd=downloadFile&cmdClass=ilexsubmissiongui&cmdNode=bs:ob:c8&baseClass=ilExerciseHandlerGUI">Download</a>
+		</div>
+	</div>
+	
+	<div class="form-group">
+		<div class="il_InfoScreenProperty control-label col-xs-3">ExerciseSheet_3.ipynb</div>
+		<div class="il_InfoScreenPropertyValue col-xs-9">
+			
+			<a href="ilias.php?ref_id=3405237&file=ExerciseSheet_3.ipynb&ass_id=44373&cmd=downloadFile&cmdClass=ilexsubmissiongui&cmdNode=bs:ob:c8&baseClass=ilExerciseHandlerGUI">Download</a>
+		</div>
+	</div>
+	
+	<div class="form-group">
+		<div class="il_InfoScreenProperty control-label col-xs-3">data_slim.csv</div>
+		<div class="il_InfoScreenPropertyValue col-xs-9">
+			
+			<a href="ilias.php?ref_id=3405237&file=data_slim.csv&ass_id=44373&cmd=downloadFile&cmdClass=ilexsubmissiongui&cmdNode=bs:ob:c8&baseClass=ilExerciseHandlerGUI">Download</a>
+		</div>
+	</div>
+	
+	
+</div>
+
+<div class="ilInfoScreenSec form-horizontal" id="infoscreen_section_3">
+	<h2 class="ilHeader">Terminplan</h2>
+	
+	<div class="form-group">
+		<div class="il_InfoScreenProperty control-label col-xs-3">Startzeit</div>
+		<div class="il_InfoScreenPropertyValue col-xs-9">
+			08. Nov 2021, 10:00
+			
+		</div>
+	</div>
+	
+	<div class="form-group">
+		<div class="il_InfoScreenProperty control-label col-xs-3">Beendet am</div>
+		<div class="il_InfoScreenPropertyValue col-xs-9">
+			15. Nov 2021, 10:15
+			
+		</div>
+	</div>
+	
+	<div class="form-group">
+		<div class="il_InfoScreenProperty control-label col-xs-3">Verbleibende Bearbeitungsdauer</div>
+		<div class="il_InfoScreenPropertyValue col-xs-9">
+			<b>Die Zeit ist abgelaufen.</b>
+			
+		</div>
+	</div>
+	
+	
+</div>
+
+<div class="ilInfoScreenSec form-horizontal" id="infoscreen_section_4">
+	<h2 class="ilHeader">Ihre Einreichung</h2>
+	
+	<div class="form-group">
+		<div class="il_InfoScreenProperty control-label col-xs-3">Team-Mitglieder</div>
+		<div class="il_InfoScreenPropertyValue col-xs-9">
+			[d.loefflad]; [i.wenger]<br><br><a class="btn btn-default" href="ilias.php?ref_id=3405237&ass_id=44373&cmd=submissionScreenTeam&cmdClass=ilexsubmissionteamgui&cmdNode=bs:ob:c8:ca&baseClass=ilExerciseHandlerGUI">&nbsp;Team verwalten&nbsp;</a>
+			
+		</div>
+	</div>
+	
+	<div class="form-group">
+		<div class="il_InfoScreenProperty control-label col-xs-3">Abgegebene Dateien</div>
+		<div class="il_InfoScreenPropertyValue col-xs-9">
+			exercise_03_Wenger_4029524_Loefflad_4017947.pdf<br><br><a class="btn btn-default" href="ilias.php?ref_id=3405237&ass_id=44373&cmd=submissionScreen&cmdClass=ilexsubmissionfilegui&cmdNode=bs:ob:c8:c7&baseClass=ilExerciseHandlerGUI">&nbsp;Bereits abgegebene Dateien&nbsp;</a>
+			
+		</div>
+	</div>
+	
+	<div class="form-group">
+		<div class="il_InfoScreenProperty control-label col-xs-3">Datum der letzten Abgabe</div>
+		<div class="il_InfoScreenPropertyValue col-xs-9">
+			14. Nov 2021, 23:31
+			
+		</div>
+	</div>
+	
+	
+</div>
+
+
+
+</form>
+
+
+
+
+</div>
+</div></div>
+</div>
+
+<div class="il_VAccordionInnerContainer">
+    <div class="il_VAccordionToggleDef"><div tabindex="0" role="button" class="il_VAccordionHead" aria-expanded="false" style=""><span class="ilExcAssignmentHead">
+	<img src="./Customizing/global/skin/unituebingen6_Ovid/images/scorm/not_attempted.svg" alt="Nicht bewertet" title="Nicht bewertet" />
+	<span class="ilAssignmentHeader">Exercise Sheet 4</span>
+	<span class="ilExAssignmentHeadProperty">Beendet am: Heute, 10:05</span>&nbsp;&nbsp;
+</span></div></div>
+    <div class="il_VAccordionContentDef ilAccHideContent"><div class="il_VAccordionContent" style=""><div class="ilExcAssignmentBody">
+
+<form name="formInfoScreen" method="post" action="ilias.php?ref_id=3405237&cmd=post&cmdClass=ilinfoscreengui&cmdNode=bs:ob:f3&baseClass=ilExerciseHandlerGUI&rtoken=b238d5a069f346e5c9788618e5823620">
+
+
+
+
+<div class="ilInfoScreenSec form-horizontal" id="infoscreen_section_1">
+	<h2 class="ilHeader">Arbeitsanweisung</h2>
+	
+	
+	<div class="form-group">
+		<div class="il_InfoScreenPropertyValue col-xs-offset-3 col-xs-9"><p>See attached files.</p></div>
+	</div>
+	
+</div>
+
+<div class="ilInfoScreenSec form-horizontal" id="infoscreen_section_2">
+	<h2 class="ilHeader">Dateien</h2>
+	
+	<div class="form-group">
+		<div class="il_InfoScreenProperty control-label col-xs-3">Exercise_04.pdf</div>
+		<div class="il_InfoScreenPropertyValue col-xs-9">
+			
+			<a href="ilias.php?ref_id=3405237&file=Exercise_04.pdf&ass_id=44649&cmd=downloadFile&cmdClass=ilexsubmissiongui&cmdNode=bs:ob:c8&baseClass=ilExerciseHandlerGUI">Download</a>
+		</div>
+	</div>
+	
+	<div class="form-group">
+		<div class="il_InfoScreenProperty control-label col-xs-3">AZD1222-HLR-RNS.pdf</div>
+		<div class="il_InfoScreenPropertyValue col-xs-9">
+			
+			<a href="ilias.php?ref_id=3405237&file=AZD1222-HLR-RNS.pdf&ass_id=44649&cmd=downloadFile&cmdClass=ilexsubmissiongui&cmdNode=bs:ob:c8&baseClass=ilExerciseHandlerGUI">Download</a>
+		</div>
+	</div>
+	
+	<div class="form-group">
+		<div class="il_InfoScreenProperty control-label col-xs-3">data_slim.csv</div>
+		<div class="il_InfoScreenPropertyValue col-xs-9">
+			
+			<a href="ilias.php?ref_id=3405237&file=data_slim.csv&ass_id=44649&cmd=downloadFile&cmdClass=ilexsubmissiongui&cmdNode=bs:ob:c8&baseClass=ilExerciseHandlerGUI">Download</a>
+		</div>
+	</div>
+	
+	<div class="form-group">
+		<div class="il_InfoScreenProperty control-label col-xs-3">Exercise_04_Practical.ipynb</div>
+		<div class="il_InfoScreenPropertyValue col-xs-9">
+			
+			<a href="ilias.php?ref_id=3405237&file=Exercise_04_Practical.ipynb&ass_id=44649&cmd=downloadFile&cmdClass=ilexsubmissiongui&cmdNode=bs:ob:c8&baseClass=ilExerciseHandlerGUI">Download</a>
+		</div>
+	</div>
+	
+	
+</div>
+
+<div class="ilInfoScreenSec form-horizontal" id="infoscreen_section_3">
+	<h2 class="ilHeader">Terminplan</h2>
+	
+	<div class="form-group">
+		<div class="il_InfoScreenProperty control-label col-xs-3">Startzeit</div>
+		<div class="il_InfoScreenPropertyValue col-xs-9">
+			15. Nov 2021, 10:15
+			
+		</div>
+	</div>
+	
+	<div class="form-group">
+		<div class="il_InfoScreenProperty control-label col-xs-3">Beendet am</div>
+		<div class="il_InfoScreenPropertyValue col-xs-9">
+			Heute, 10:05
+			
+		</div>
+	</div>
+	
+	<div class="form-group">
+		<div class="il_InfoScreenProperty control-label col-xs-3">Verbleibende Bearbeitungsdauer</div>
+		<div class="il_InfoScreenPropertyValue col-xs-9">
+			<b>Die Zeit ist abgelaufen.</b>
+			
+		</div>
+	</div>
+	
+	
+</div>
+
+<div class="ilInfoScreenSec form-horizontal" id="infoscreen_section_4">
+	<h2 class="ilHeader">Ihre Einreichung</h2>
+	
+	<div class="form-group">
+		<div class="il_InfoScreenProperty control-label col-xs-3">Team-Mitglieder</div>
+		<div class="il_InfoScreenPropertyValue col-xs-9">
+			[d.loefflad]; [i.wenger]<br><br><a class="btn btn-default" href="ilias.php?ref_id=3405237&ass_id=44649&cmd=submissionScreenTeam&cmdClass=ilexsubmissionteamgui&cmdNode=bs:ob:c8:ca&baseClass=ilExerciseHandlerGUI">&nbsp;Team verwalten&nbsp;</a>
+			
+		</div>
+	</div>
+	
+	<div class="form-group">
+		<div class="il_InfoScreenProperty control-label col-xs-3">Abgegebene Dateien</div>
+		<div class="il_InfoScreenPropertyValue col-xs-9">
+			exercise_04_Wenger_4029524_Loefflad_4017947.pdf<br><br><a class="btn btn-default" href="ilias.php?ref_id=3405237&ass_id=44649&cmd=submissionScreen&cmdClass=ilexsubmissionfilegui&cmdNode=bs:ob:c8:c7&baseClass=ilExerciseHandlerGUI">&nbsp;Bereits abgegebene Dateien&nbsp;</a>
+			
+		</div>
+	</div>
+	
+	<div class="form-group">
+		<div class="il_InfoScreenProperty control-label col-xs-3">Datum der letzten Abgabe</div>
+		<div class="il_InfoScreenPropertyValue col-xs-9">
+			Gestern, 19:51
+			
+		</div>
+	</div>
+	
+	
+</div>
+
+
+
+</form>
+
+
+
+
+</div>
+</div></div>
+</div>
+
+<div class="il_VAccordionInnerContainer">
+    <div class="il_VAccordionToggleDef"><div tabindex="0" role="button" class="il_VAccordionHead" aria-expanded="false" style=""><span class="ilExcAssignmentHead">
+	<img src="./Customizing/global/skin/unituebingen6_Ovid/images/scorm/not_attempted.svg" alt="Nicht bewertet" title="Nicht bewertet" />
+	<span class="ilAssignmentHeader">Exercise Sheet #5</span>
+	<span class="ilExAssignmentHeadProperty">Verbleibende Bearbeitungsdauer: 6 Tage, 13 Stunden, 34 Minuten</span>&nbsp;&nbsp;<span class="ilExAssignmentHeadProperty">Abgabetermin: 29. Nov 2021, 10:15</span>&nbsp;&nbsp;
+</span></div></div>
+    <div class="il_VAccordionContentDef ilAccHideContent"><div class="il_VAccordionContent" style=""><div class="ilExcAssignmentBody">
+
+<form name="formInfoScreen" method="post" action="ilias.php?ref_id=3405237&cmd=post&cmdClass=ilinfoscreengui&cmdNode=bs:ob:f3&baseClass=ilExerciseHandlerGUI&rtoken=b238d5a069f346e5c9788618e5823620">
+
+
+
+
+<div class="ilInfoScreenSec form-horizontal" id="infoscreen_section_1">
+	<h2 class="ilHeader">Arbeitsanweisung</h2>
+	
+	
+	<div class="form-group">
+		<div class="il_InfoScreenPropertyValue col-xs-offset-3 col-xs-9"><p><span>See attached files.</span></p></div>
+	</div>
+	
+</div>
+
+<div class="ilInfoScreenSec form-horizontal" id="infoscreen_section_2">
+	<h2 class="ilHeader">Dateien</h2>
+	
+	<div class="form-group">
+		<div class="il_InfoScreenProperty control-label col-xs-3">Exercise_05.pdf</div>
+		<div class="il_InfoScreenPropertyValue col-xs-9">
+			
+			<a href="ilias.php?ref_id=3405237&file=Exercise_05.pdf&ass_id=44860&cmd=downloadFile&cmdClass=ilexsubmissiongui&cmdNode=bs:ob:c8&baseClass=ilExerciseHandlerGUI">Download</a>
+		</div>
+	</div>
+	
+	<div class="form-group">
+		<div class="il_InfoScreenProperty control-label col-xs-3">Exercise_05.ipynb</div>
+		<div class="il_InfoScreenPropertyValue col-xs-9">
+			
+			<a href="ilias.php?ref_id=3405237&file=Exercise_05.ipynb&ass_id=44860&cmd=downloadFile&cmdClass=ilexsubmissiongui&cmdNode=bs:ob:c8&baseClass=ilExerciseHandlerGUI">Download</a>
+		</div>
+	</div>
+	
+	<div class="form-group">
+		<div class="il_InfoScreenProperty control-label col-xs-3">Plot.PNG</div>
+		<div class="il_InfoScreenPropertyValue col-xs-9">
+			
+<div class="ilExcAssImageContainer" onClick="$('#il-ex-modal-img-44860-3').modal('show')">
+	
+
+
+
+
+<img src="./data/pr02/ilExercise/4/7/93/exc_4079369/ass_44860/Plot.PNG" class="img-responsive" alt="Plot.PNG" />
+
+
+
+	<div>
+		<img src='./Customizing/global/skin/unituebingen6_Ovid/images/enlarge.svg' align='right'>
+	</div>
+</div>
+<div id="il-ex-modal-img-44860-3" class="modal fade">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+				<h4 class="modal-title">Plot.PNG</h4>
+			</div>
+			<div class="modal-body">
+				
+
+
+
+
+<img src="./data/pr02/ilExercise/4/7/93/exc_4079369/ass_44860/Plot.PNG" class="img-responsive" alt="Plot.PNG" />
+
+
+
+			</div>
+			
+		</div>
+	</div>
+</div>
+
+			
+		</div>
+	</div>
+	
+	<div class="form-group">
+		<div class="il_InfoScreenProperty control-label col-xs-3">Table.PNG</div>
+		<div class="il_InfoScreenPropertyValue col-xs-9">
+			
+<div class="ilExcAssImageContainer" onClick="$('#il-ex-modal-img-44860-4').modal('show')">
+	
+
+
+
+
+<img src="./data/pr02/ilExercise/4/7/93/exc_4079369/ass_44860/Table.PNG" class="img-responsive" alt="Table.PNG" />
+
+
+
+	<div>
+		<img src='./Customizing/global/skin/unituebingen6_Ovid/images/enlarge.svg' align='right'>
+	</div>
+</div>
+<div id="il-ex-modal-img-44860-4" class="modal fade">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+				<h4 class="modal-title">Table.PNG</h4>
+			</div>
+			<div class="modal-body">
+				
+
+
+
+
+<img src="./data/pr02/ilExercise/4/7/93/exc_4079369/ass_44860/Table.PNG" class="img-responsive" alt="Table.PNG" />
+
+
+
+			</div>
+			
+		</div>
+	</div>
+</div>
+
+			
+		</div>
+	</div>
+	
+	
+</div>
+
+<div class="ilInfoScreenSec form-horizontal" id="infoscreen_section_3">
+	<h2 class="ilHeader">Terminplan</h2>
+	
+	<div class="form-group">
+		<div class="il_InfoScreenProperty control-label col-xs-3">Startzeit</div>
+		<div class="il_InfoScreenPropertyValue col-xs-9">
+			Heute, 11:00
+			
+		</div>
+	</div>
+	
+	<div class="form-group">
+		<div class="il_InfoScreenProperty control-label col-xs-3">Abgabetermin</div>
+		<div class="il_InfoScreenPropertyValue col-xs-9">
+			29. Nov 2021, 10:15
+			
+		</div>
+	</div>
+	
+	<div class="form-group">
+		<div class="il_InfoScreenProperty control-label col-xs-3">Verbleibende Bearbeitungsdauer</div>
+		<div class="il_InfoScreenPropertyValue col-xs-9">
+			<b>6 Tage, 13 Stunden, 34 Minuten</b>
+			
+		</div>
+	</div>
+	
+	
+</div>
+
+<div class="ilInfoScreenSec form-horizontal" id="infoscreen_section_4">
+	<h2 class="ilHeader">Ihre Einreichung</h2>
+	
+	<div class="form-group">
+		<div class="il_InfoScreenProperty control-label col-xs-3">Team-Mitglieder</div>
+		<div class="il_InfoScreenPropertyValue col-xs-9">
+			[d.loefflad]; [i.wenger] <a class="btn btn-default" href="ilias.php?ref_id=3405237&ass_id=44860&cmd=confirmDeleteTeam&cmdClass=ilexsubmissionteamgui&cmdNode=bs:ob:c8:ca&baseClass=ilExerciseHandlerGUI">&nbsp;Team löschen&nbsp;</a><br><br><a class="btn btn-default" href="ilias.php?ref_id=3405237&ass_id=44860&cmd=submissionScreenTeam&cmdClass=ilexsubmissionteamgui&cmdNode=bs:ob:c8:ca&baseClass=ilExerciseHandlerGUI">&nbsp;Team verwalten&nbsp;</a>
+			
+		</div>
+	</div>
+	
+	<div class="form-group">
+		<div class="il_InfoScreenProperty control-label col-xs-3">Abgegebene Dateien</div>
+		<div class="il_InfoScreenPropertyValue col-xs-9">
+			Sie haben noch keine Datei abgegeben.<br><br><a class="btn btn-default btn-primary" href="ilias.php?ref_id=3405237&ass_id=44860&cmd=submissionScreen&cmdClass=ilexsubmissionfilegui&cmdNode=bs:ob:c8:c7&baseClass=ilExerciseHandlerGUI">&nbsp;Datei abgeben&nbsp;</a>
+			
+		</div>
+	</div>
+	
+	
+</div>
+
+
+
+</form>
+
+
+
+
+</div>
+</div></div>
+</div>
+
+<div style="clear:both;"></div>
+</div>
+<script type="text/javascript">
+	$(function () {
+		il.Accordion.add({"orientation":"vertical","int_id":"exc_ow_4079369","initial_opened":"5","save_url":".\/ilias.php?baseClass=ilaccordionpropertiesstorage&cmd=setOpenedTab&accordion_id=exc_ow_4079369&user_id=1323454","behaviour":null,"toggle_class":"il_VAccordionToggleDef","toggle_act_class":"il_VAccordionToggleActiveDef","content_class":"il_VAccordionContentDef","width":null,"active_head_class":"il_HAccordionHeadActive","height":null,"id":"accordion_exc_ow_4079369_1","multi":false,"show_all_element":null,"hide_all_element":null});
+	});
+</script>
+
+</div>
+								
+								
+								
+								
+							</div>
+
+							
+
+							
+						</div>
+					</div>
+
+					
+					
+				
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+<!--<div id="minheight"></div>-->
+<!--<footer id="ilFooter" class="ilFooter hidden-print"><div class="container-fluid ilContainerWidth">-->
+<!--<div class="row"><div class="ilFooterContainer form-inline"> </div></div></div></footer>-->
+
+
+
+
+			</div>
+
+
+			
+			<footer role="contentinfo">
+				<div class="il-maincontrols-footer">
+	<div class="il-footer-content">
+
+		
+
+		<div class="il-footer-text">
+			powered by ILIAS (v6.11 2021-09-10)
+		</div>
+		
+		<div class="il-footer-links">
+			<ul>
+	
+	<li><a href="https://ovidius.uni-tuebingen.de/ilias3/goto.php?target=impr_0&client_id=pr02" >Impressum und Datenschutz</a></li>
+	
+	<li><a href="ilias.php?cmdClass=ilsystemsupportcontactsgui&cmdNode=13j&baseClass=ilsystemsupportcontactsgui" >Technische Betreuung kontaktieren</a></li>
+	
+	<li><a href="ilias.php?cmdClass=ilaccessibilitycontrolconceptgui&cmdNode=16&baseClass=ilaccessibilitycontrolconceptgui" >Info Barrierefreiheit</a></li>
+	
+</ul>
+		</div>
+		
+
+	</div>
+</div>
+
+			</footer>
+			
+		</main>
+
+
+	</div>
+
+
+
+<script type="text/javascript">
+	
+		il.Util.addOnLoad(function() {
+			try { il.Language.setLangVar('private_notes', "Private Notizen"); } catch (e) { console.log(e); }
+try { il.Language.setLangVar('notes_public_comments', "\u00d6ffentliche Kommentare"); } catch (e) { console.log(e); }
+try { ilNotes.setAjaxUrl('ilias.php?ref_id=3405237&cmdClass=ilnotegui&cmdNode=bs:ob:7s:lo&baseClass=ilExerciseHandlerGUI&cmdMode=asynch'); } catch (e) { console.log(e); }
+try { il.Language.setLangVar('tagging_tags', "Tags"); } catch (e) { console.log(e); }
+try { ilTagging.setAjaxUrl('ilias.php?ref_id=3405237&cmdClass=iltagginggui&cmdNode=bs:ob:7s:13r&baseClass=ilExerciseHandlerGUI&cmdMode=asynch'); } catch (e) { console.log(e); }
+try { il.Object.setRedrawAHUrl('ilias.php?ref_id=3405237&cmd=redrawHeaderAction&cmdClass=ilobjexercisegui&cmdNode=bs:ob&baseClass=ilExerciseHandlerGUI&cmdMode=asynch'); } catch (e) { console.log(e); }
+try { il.BuddySystem.setConfig({"http_post_url":"ilias.php?cmd=post&cmdClass=ilbuddysystemgui&cmdNode=16y:57&baseClass=iluipluginroutergui&cmdMode=asynch&rtoken=b238d5a069f346e5c9788618e5823620","transition_state_cmd":"transitionAsync"}); } catch (e) { console.log(e); }
+try { il.BuddySystemButton.setConfig({"bnt_class":"ilBuddySystemLinkWidget"}); } catch (e) { console.log(e); }
+try { il.BuddySystemButton.init(); } catch (e) { console.log(e); }
+try { OSDNotifier = OSDNotifications({
+	closeHtml:            "<a class=\"glyph\" aria-label=\"Schlie\u00dfen\">\n<span class=\"glyphicon\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n glyphicon-remove\n\n\n\n\n\n\n\" aria-hidden=\"true\"><\/span>\n\n\n\n\n\n\n\n<\/a>\n",
+	initialNotifications: [],
+	pollingIntervall:     60,
+	playSound:            false
+}); } catch (e) { console.log(e); }
+try { il.GS.Client.init('{"hashing":true,"logging":false}'); } catch (e) { console.log(e); }
+try { setTimeout(function() {il.Tooltip.init();}, 500); } catch (e) { console.log(e); }
+try { il.Explorer2.init({"container_id":"il_expl2_jstree_cont_rep_exp","container_outer_id":"il_expl2_jstree_cont_out_rep_exp","url":"ilias.php?ref_id=3405237&cmd=showRepTree&cmdClass=ilrepositorygui&cmdNode=y7&baseClass=ilrepositorygui&cmdMode=asynch","second_hnodes":[],"ajax":true}, {"core":{"animation":0,"initially_open":["exp_node_rep_exp_1","exp_node_rep_exp_1","exp_node_rep_exp_3279415","exp_node_rep_exp_3279727","exp_node_rep_exp_3279778","exp_node_rep_exp_3279803","exp_node_rep_exp_3334251","exp_node_rep_exp_3405237"],"open_parents":false,"strings":{"loading":"Loading ...","new_node":"New node"},"themes":{"dots":false,"icons":false,"theme":""}},"plugins":["html_data","themes","json_data"],"html_data":[]}); } catch (e) { console.log(e); }
+try {  } catch (e) { console.log(e); }
+try { il.Help.setAjaxUrl('ilias.php?help_screen_id=exc/content/.3405237&cmdClass=ilhelpgui&cmdNode=ee&baseClass=ilhelpgui&cmdMode=asynch'); } catch (e) { console.log(e); }
+try { il.Help.listHelp(null); } catch (e) { console.log(e); }
+try { il.Overlay.add("mm_search_menu", {"yuicfg":{"visible":false,"fixedcenter":false},"trigger":null,"trigger_event":null,"anchor_id":null,"auto_hide":false,"close_el":null});  } catch (e) { console.log(e); }
+try {  } catch (e) { console.log(e); }
+try { $('#il_ui_fw_619bf22fc77a35_13834455').on('click', function() {
+                                    console.log('trigger help slate');
+                                    $('body').trigger('il-help-toggle-slate');
+                                }) } catch (e) { console.log(e); }
+try { $('#il_ui_fw_619bf22fc79b04_47681154').on('click', function(event) {
+						$(this).trigger('il_signal_619bf22fc6e785_79969853',
+							{
+								'id' : 'il_signal_619bf22fc6e785_79969853', 'event' : 'click',
+								'triggerer' : $(this),
+								'options' : JSON.parse('[]')
+							}
+						);
+						return false;
+					});$('#il_ui_fw_619bf22fc79b04_47681154').on('click', function(event) {
+						$(this).trigger('il_signal_619bf22fc6ecc1_89470671',
+							{
+								'id' : 'il_signal_619bf22fc6ecc1_89470671', 'event' : 'click',
+								'triggerer' : $(this),
+								'options' : JSON.parse('[]')
+							}
+						);
+						return false;
+					}); } catch (e) { console.log(e); }
+try {  } catch (e) { console.log(e); }
+try { fn = il.UI.maincontrols.slate.onSignal;$(document).on('il_signal_619bf22fc6ecc1_89470671', function(event, signalData) { fn('toggle', event, signalData, 'il_ui_fw_619bf22fc7b9d6_62454498'); return false;});$(document).on('il_signal_619bf22fc6ece5_34527067', function(event, signalData) { fn('engage', event, signalData, 'il_ui_fw_619bf22fc7b9d6_62454498'); return false;});$(document).on('il_signal_619bf22fc6ecf2_22703036', function(event, signalData) { fn('replace', event, signalData, 'il_ui_fw_619bf22fc7b9d6_62454498'); return false;}); } catch (e) { console.log(e); }
+try { $('#il_ui_fw_619bf22fc7c1e3_19056868').on('click', function(event) {
+						$(this).trigger('il_signal_619bf22fc6e785_79969853',
+							{
+								'id' : 'il_signal_619bf22fc6e785_79969853', 'event' : 'click',
+								'triggerer' : $(this),
+								'options' : JSON.parse('[]')
+							}
+						);
+						return false;
+					});$('#il_ui_fw_619bf22fc7c1e3_19056868').on('click', function(event) {
+						$(this).trigger('il_signal_619bf22fc6edc2_89066465',
+							{
+								'id' : 'il_signal_619bf22fc6edc2_89066465', 'event' : 'click',
+								'triggerer' : $(this),
+								'options' : JSON.parse('[]')
+							}
+						);
+						return false;
+					}); } catch (e) { console.log(e); }
+try { fn = il.UI.maincontrols.slate.onSignal;$(document).on('il_signal_619bf22fc6edc2_89066465', function(event, signalData) { fn('toggle', event, signalData, 'il_ui_fw_619bf22fc803e4_47660707'); return false;});$(document).on('il_signal_619bf22fc6edd4_74011847', function(event, signalData) { fn('engage', event, signalData, 'il_ui_fw_619bf22fc803e4_47660707'); return false;});$(document).on('il_signal_619bf22fc6ede1_54619264', function(event, signalData) { fn('replace', event, signalData, 'il_ui_fw_619bf22fc803e4_47660707'); return false;}); } catch (e) { console.log(e); }
+try { $('#il_ui_fw_619bf22fc80c55_59887031').on('click', function(event) {
+						$(this).trigger('il_signal_619bf22fc6e785_79969853',
+							{
+								'id' : 'il_signal_619bf22fc6e785_79969853', 'event' : 'click',
+								'triggerer' : $(this),
+								'options' : JSON.parse('[]')
+							}
+						);
+						return false;
+					});$('#il_ui_fw_619bf22fc80c55_59887031').on('click', function(event) {
+						$(this).trigger('il_signal_619bf22fc76560_28423469',
+							{
+								'id' : 'il_signal_619bf22fc76560_28423469', 'event' : 'click',
+								'triggerer' : $(this),
+								'options' : JSON.parse('[]')
+							}
+						);
+						return false;
+					}); } catch (e) { console.log(e); }
+try { fn = il.UI.maincontrols.slate.onSignal;$(document).on('il_signal_619bf22fc76560_28423469', function(event, signalData) { fn('toggle', event, signalData, 'il_ui_fw_619bf22fc832c5_08574581'); return false;});$(document).on('il_signal_619bf22fc765a3_02708445', function(event, signalData) { fn('engage', event, signalData, 'il_ui_fw_619bf22fc832c5_08574581'); return false;});$(document).on('il_signal_619bf22fc765b4_68201915', function(event, signalData) { fn('replace', event, signalData, 'il_ui_fw_619bf22fc832c5_08574581'); return false;}); } catch (e) { console.log(e); }
+try { 
+					il.UI.maincontrols.metabar.registerSignals(
+						'il_ui_fw_619bf22fc834f6_89171318',
+						'il_signal_619bf22fc6e785_79969853',
+						'il_signal_619bf22fc6e7f3_93649641',
+					);
+					il.UI.maincontrols.metabar.init();
+					$(window).resize(il.UI.maincontrols.metabar.init);
+				 } catch (e) { console.log(e); }
+try { 
+                        il.UI.maincontrols.mainbar.addPartIdAndEntry('0:0', 'triggerer', 'il_ui_fw_619bf22fc853d9_44870294', false);
+                        il.UI.maincontrols.mainbar.addMapping('494c4941535c4d61696e4d656e755c50726f76696465725c5374616e64617264546f704974656d7350726f76696465727c6d6d5f70645f6372735f677270','0:0');
+                     } catch (e) { console.log(e); }
+try { 
+                        il.UI.maincontrols.mainbar.addPartIdAndEntry('0:1', 'triggerer', 'il_ui_fw_619bf22fc85b88_81480524', false);
+                        il.UI.maincontrols.mainbar.addMapping('494c4941535c4d61696e4d656e755c50726f76696465725c5374616e64617264546f704974656d7350726f76696465727c7265706f7369746f7279','0:1');
+                    
+$('#il_ui_fw_619bf22fc85b88_81480524').on('click', function(event) {
+						$(this).trigger('il_signal_619bf22fc85585_77119987',
+							{
+								'id' : 'il_signal_619bf22fc85585_77119987', 'event' : 'click',
+								'triggerer' : $(this),
+								'options' : JSON.parse('{"entry_id":"0:1","action":"trigger"}')
+							}
+						);
+						return false;
+					}); } catch (e) { console.log(e); }
+try { 
+                                    il.UI.maincontrols.mainbar.addTriggerSignal('il_signal_619bf22fc86580_63617669');
+                                    il.UI.maincontrols.mainbar.addPartIdAndEntry('0:1:1', 'triggerer', 'il_ui_fw_619bf22fc877a3_31470427');
+                                
+$('#il_ui_fw_619bf22fc877a3_31470427').on('click', function(event) {
+						$(this).trigger('il_signal_619bf22fc86580_63617669',
+							{
+								'id' : 'il_signal_619bf22fc86580_63617669', 'event' : 'click',
+								'triggerer' : $(this),
+								'options' : JSON.parse('{"entry_id":"0:1:1","action":"trigger"}')
+							}
+						);
+						return false;
+					}); } catch (e) { console.log(e); }
+try {  } catch (e) { console.log(e); }
+try { fn = il.UI.maincontrols.slate.onSignal;$(document).on('il_signal_619bf22fc36278_88882024', function(event, signalData) { fn('toggle', event, signalData, 'il_ui_fw_619bf22fc884b4_84505775'); return false;});$(document).on('il_signal_619bf22fc362a1_42451468', function(event, signalData) { fn('engage', event, signalData, 'il_ui_fw_619bf22fc884b4_84505775'); return false;});$(document).on('il_signal_619bf22fc362b5_43244106', function(event, signalData) { fn('replace', event, signalData, 'il_ui_fw_619bf22fc884b4_84505775'); return false;});il.UI.maincontrols.mainbar.addPartIdAndEntry('0:1:1', 'slate', 'il_ui_fw_619bf22fc884b4_84505775'); } catch (e) { console.log(e); }
+try { 
+                                    il.UI.maincontrols.mainbar.addTriggerSignal('il_signal_619bf22fc86622_96063206');
+                                    il.UI.maincontrols.mainbar.addPartIdAndEntry('0:1:2', 'triggerer', 'il_ui_fw_619bf22fc88b81_24175155');
+                                
+$('#il_ui_fw_619bf22fc88b81_24175155').on('click', function(event) {
+						$(this).trigger('il_signal_619bf22fc86622_96063206',
+							{
+								'id' : 'il_signal_619bf22fc86622_96063206', 'event' : 'click',
+								'triggerer' : $(this),
+								'options' : JSON.parse('{"entry_id":"0:1:2","action":"trigger"}')
+							}
+						);
+						return false;
+					}); } catch (e) { console.log(e); }
+try {  } catch (e) { console.log(e); }
+try { fn = il.UI.maincontrols.slate.onSignal;$(document).on('il_signal_619bf22fc363c3_77157919', function(event, signalData) { fn('toggle', event, signalData, 'il_ui_fw_619bf22fc898f1_77001746'); return false;});$(document).on('il_signal_619bf22fc363d1_39154387', function(event, signalData) { fn('engage', event, signalData, 'il_ui_fw_619bf22fc898f1_77001746'); return false;});$(document).on('il_signal_619bf22fc363e9_56999330', function(event, signalData) { fn('replace', event, signalData, 'il_ui_fw_619bf22fc898f1_77001746'); return false;});il.UI.maincontrols.mainbar.addPartIdAndEntry('0:1:2', 'slate', 'il_ui_fw_619bf22fc898f1_77001746');
+$('#il_ui_fw_619bf22fc898f1_77001746').on('in_view', function(event) {
+						$(this).trigger('il_signal_619bf22fc363e9_56999330',
+							{
+								'id' : 'il_signal_619bf22fc363e9_56999330', 'event' : 'in_view',
+								'triggerer' : $(this),
+								'options' : JSON.parse('{"url":".\/gs_content.php?item=494c4941535c5265706f7369746f72795c50726f76696465725c5265706f7369746f72794d61696e42617250726f76696465727c6c6173745f76697369746564"}')
+							}
+						);
+						return false;
+					}); } catch (e) { console.log(e); }
+try { fn = il.UI.maincontrols.slate.onSignal;$(document).on('il_signal_619bf22fc2c0a2_55184596', function(event, signalData) { fn('toggle', event, signalData, 'il_ui_fw_619bf22fc8a602_53534383'); return false;});$(document).on('il_signal_619bf22fc2c0c1_56006974', function(event, signalData) { fn('engage', event, signalData, 'il_ui_fw_619bf22fc8a602_53534383'); return false;});$(document).on('il_signal_619bf22fc2c0d8_29027731', function(event, signalData) { fn('replace', event, signalData, 'il_ui_fw_619bf22fc8a602_53534383'); return false;});il.UI.maincontrols.mainbar.addPartIdAndEntry('0:1', 'slate', 'il_ui_fw_619bf22fc8a602_53534383'); } catch (e) { console.log(e); }
+try { 
+                        il.UI.maincontrols.mainbar.addPartIdAndEntry('0:2', 'triggerer', 'il_ui_fw_619bf22fc8adb0_79582937', false);
+                        il.UI.maincontrols.mainbar.addMapping('494c4941535c4d61696e4d656e755c50726f76696465725c5374616e64617264546f704974656d7350726f76696465727c706572736f6e616c5f776f726b7370616365','0:2');
+                    
+$('#il_ui_fw_619bf22fc8adb0_79582937').on('click', function(event) {
+						$(this).trigger('il_signal_619bf22fc8a806_27804692',
+							{
+								'id' : 'il_signal_619bf22fc8a806_27804692', 'event' : 'click',
+								'triggerer' : $(this),
+								'options' : JSON.parse('{"entry_id":"0:2","action":"trigger"}')
+							}
+						);
+						return false;
+					}); } catch (e) { console.log(e); }
+try { 
+                                    il.UI.maincontrols.mainbar.addTriggerSignal('il_signal_619bf22fc8b678_47831676');
+                                    il.UI.maincontrols.mainbar.addPartIdAndEntry('0:2:0', 'triggerer', 'il_ui_fw_619bf22fc8bef7_17960268');
+                                
+$('#il_ui_fw_619bf22fc8bef7_17960268').on('click', function(event) {
+						$(this).trigger('il_signal_619bf22fc8b678_47831676',
+							{
+								'id' : 'il_signal_619bf22fc8b678_47831676', 'event' : 'click',
+								'triggerer' : $(this),
+								'options' : JSON.parse('{"entry_id":"0:2:0","action":"trigger"}')
+							}
+						);
+						return false;
+					}); } catch (e) { console.log(e); }
+try {  } catch (e) { console.log(e); }
+try { fn = il.UI.maincontrols.slate.onSignal;$(document).on('il_signal_619bf22fc36a53_08360593', function(event, signalData) { fn('toggle', event, signalData, 'il_ui_fw_619bf22fc8cc76_98016534'); return false;});$(document).on('il_signal_619bf22fc36a65_48404049', function(event, signalData) { fn('engage', event, signalData, 'il_ui_fw_619bf22fc8cc76_98016534'); return false;});$(document).on('il_signal_619bf22fc36a78_92880147', function(event, signalData) { fn('replace', event, signalData, 'il_ui_fw_619bf22fc8cc76_98016534'); return false;});il.UI.maincontrols.mainbar.addPartIdAndEntry('0:2:0', 'slate', 'il_ui_fw_619bf22fc8cc76_98016534');
+$('#il_ui_fw_619bf22fc8cc76_98016534').on('in_view', function(event) {
+						$(this).trigger('il_signal_619bf22fc36a78_92880147',
+							{
+								'id' : 'il_signal_619bf22fc36a78_92880147', 'event' : 'in_view',
+								'triggerer' : $(this),
+								'options' : JSON.parse('{"url":".\/gs_content.php?item=494c4941535c506572736f6e616c4465736b746f705c50444d61696e42617250726f76696465727c6d6d5f70645f73656c5f6974656d73"}')
+							}
+						);
+						return false;
+					}); } catch (e) { console.log(e); }
+try { fn = il.UI.maincontrols.slate.onSignal;$(document).on('il_signal_619bf22fc369c7_76106207', function(event, signalData) { fn('toggle', event, signalData, 'il_ui_fw_619bf22fc8fd41_45074598'); return false;});$(document).on('il_signal_619bf22fc369e8_52682844', function(event, signalData) { fn('engage', event, signalData, 'il_ui_fw_619bf22fc8fd41_45074598'); return false;});$(document).on('il_signal_619bf22fc369f4_59196331', function(event, signalData) { fn('replace', event, signalData, 'il_ui_fw_619bf22fc8fd41_45074598'); return false;});il.UI.maincontrols.mainbar.addPartIdAndEntry('0:2', 'slate', 'il_ui_fw_619bf22fc8fd41_45074598'); } catch (e) { console.log(e); }
+try { 
+                        il.UI.maincontrols.mainbar.addPartIdAndEntry('0:3', 'triggerer', 'il_ui_fw_619bf22fc90528_93709455', false);
+                        il.UI.maincontrols.mainbar.addMapping('494c4941535c4d61696e4d656e755c50726f76696465725c5374616e64617264546f704974656d7350726f76696465727c636f6d6d756e69636174696f6e','0:3');
+                    
+$('#il_ui_fw_619bf22fc90528_93709455').on('click', function(event) {
+						$(this).trigger('il_signal_619bf22fc8ff44_11934560',
+							{
+								'id' : 'il_signal_619bf22fc8ff44_11934560', 'event' : 'click',
+								'triggerer' : $(this),
+								'options' : JSON.parse('{"entry_id":"0:3","action":"trigger"}')
+							}
+						);
+						return false;
+					}); } catch (e) { console.log(e); }
+try { fn = il.UI.maincontrols.slate.onSignal;$(document).on('il_signal_619bf22fc37045_97743898', function(event, signalData) { fn('toggle', event, signalData, 'il_ui_fw_619bf22fc941e2_14113484'); return false;});$(document).on('il_signal_619bf22fc37057_19606136', function(event, signalData) { fn('engage', event, signalData, 'il_ui_fw_619bf22fc941e2_14113484'); return false;});$(document).on('il_signal_619bf22fc37062_44449909', function(event, signalData) { fn('replace', event, signalData, 'il_ui_fw_619bf22fc941e2_14113484'); return false;});il.UI.maincontrols.mainbar.addPartIdAndEntry('0:3', 'slate', 'il_ui_fw_619bf22fc941e2_14113484'); } catch (e) { console.log(e); }
+try { 
+                        il.UI.maincontrols.mainbar.addPartIdAndEntry('0:4', 'triggerer', 'il_ui_fw_619bf22fc94ad2_93704942', false);
+                        il.UI.maincontrols.mainbar.addMapping('_mb_more_entry','0:4');
+                    
+$('#il_ui_fw_619bf22fc94ad2_93704942').on('click', function(event) {
+						$(this).trigger('il_signal_619bf22fc944b0_53662349',
+							{
+								'id' : 'il_signal_619bf22fc944b0_53662349', 'event' : 'click',
+								'triggerer' : $(this),
+								'options' : JSON.parse('{"entry_id":"0:4","action":"trigger"}')
+							}
+						);
+						return false;
+					}); } catch (e) { console.log(e); }
+try { fn = il.UI.maincontrols.slate.onSignal;$(document).on('il_signal_619bf22fc843e8_77040570', function(event, signalData) { fn('toggle', event, signalData, 'il_ui_fw_619bf22fc96138_41426362'); return false;});$(document).on('il_signal_619bf22fc84415_70982564', function(event, signalData) { fn('engage', event, signalData, 'il_ui_fw_619bf22fc96138_41426362'); return false;});$(document).on('il_signal_619bf22fc84427_77789804', function(event, signalData) { fn('replace', event, signalData, 'il_ui_fw_619bf22fc96138_41426362'); return false;});il.UI.maincontrols.mainbar.addPartIdAndEntry('0:4', 'slate', 'il_ui_fw_619bf22fc96138_41426362'); } catch (e) { console.log(e); }
+try { il.UI.maincontrols.mainbar.addToolEntry('T:0', false, true, '696c48656c704753546f6f6c50726f76696465727c68656c70');
+                        il.UI.maincontrols.mainbar.addPartIdAndEntry('T:0', 'triggerer', 'il_ui_fw_619bf22fc96a54_89274800', true);
+                        il.UI.maincontrols.mainbar.addMapping('696c48656c704753546f6f6c50726f76696465727c68656c70','T:0');
+                    
+$('#il_ui_fw_619bf22fc96a54_89274800').on('click', function(event) {
+						$(this).trigger('il_signal_619bf22fc96390_42098851',
+							{
+								'id' : 'il_signal_619bf22fc96390_42098851', 'event' : 'click',
+								'triggerer' : $(this),
+								'options' : JSON.parse('{"entry_id":"T:0","action":"trigger"}')
+							}
+						);
+						return false;
+					}); } catch (e) { console.log(e); }
+try {  } catch (e) { console.log(e); }
+try { 
+                                                 $('body').on('il-help-toggle-slate', function(){
+                                                    if (!$('#il_ui_fw_619bf22fc97998_43567081').hasClass('disengaged')) {
+                                                        il.Help.resetCurrentPage();
+                                                        il.UI.maincontrols.mainbar.removeTool('696c48656c704753546f6f6c50726f76696465727c68656c70');
+                                                    } else {
+                                                        il.UI.maincontrols.mainbar.engageTool('696c48656c704753546f6f6c50726f76696465727c68656c70');
+                                                    }
+                                                 });
+fn = il.UI.maincontrols.slate.onSignal;$(document).on('il_signal_619bf22fc40f94_52074983', function(event, signalData) { fn('toggle', event, signalData, 'il_ui_fw_619bf22fc97998_43567081'); return false;});$(document).on('il_signal_619bf22fc40fd3_86245874', function(event, signalData) { fn('engage', event, signalData, 'il_ui_fw_619bf22fc97998_43567081'); return false;});$(document).on('il_signal_619bf22fc40fe9_20440736', function(event, signalData) { fn('replace', event, signalData, 'il_ui_fw_619bf22fc97998_43567081'); return false;});il.UI.maincontrols.mainbar.addPartIdAndEntry('T:0', 'slate', 'il_ui_fw_619bf22fc97998_43567081'); } catch (e) { console.log(e); }
+try { $('#il_ui_fw_619bf22fc98169_83813383').on('click', function(event) {
+						$(this).trigger('il_signal_619bf22fc2b664_18923899',
+							{
+								'id' : 'il_signal_619bf22fc2b664_18923899', 'event' : 'click',
+								'triggerer' : $(this),
+								'options' : JSON.parse('{"action":"toggle_tools"}')
+							}
+						);
+						return false;
+					}); } catch (e) { console.log(e); }
+try { $('#il_ui_fw_619bf22fc99021_52907918').on('click', function(event) {
+						$(this).trigger('il_signal_619bf22fc2b656_47851168',
+							{
+								'id' : 'il_signal_619bf22fc2b656_47851168', 'event' : 'click',
+								'triggerer' : $(this),
+								'options' : JSON.parse('{"action":"disengage_all"}')
+							}
+						);
+						return false;
+					}); } catch (e) { console.log(e); }
+try { il.UI.maincontrols.mainbar.addTriggerSignal('il_signal_619bf22fc2b656_47851168');il.UI.maincontrols.mainbar.addTriggerSignal('il_signal_619bf22fc2b664_18923899');il.UI.maincontrols.mainbar.addTriggerSignal('il_signal_619bf22fc85585_77119987');il.UI.maincontrols.mainbar.addTriggerSignal('il_signal_619bf22fc8a806_27804692');il.UI.maincontrols.mainbar.addTriggerSignal('il_signal_619bf22fc8ff44_11934560');il.UI.maincontrols.mainbar.addTriggerSignal('il_signal_619bf22fc944b0_53662349');il.UI.maincontrols.mainbar.addTriggerSignal('il_signal_619bf22fc96390_42098851');il.UI.maincontrols.mainbar.addTriggerSignal('il_signal_619bf22fc41160_15524575');
+                    $(window).resize(il.UI.maincontrols.mainbar.adjustToScreenSize);
+                    il.UI.maincontrols.mainbar.init('');
+                 } catch (e) { console.log(e); }
+try { $('#il_ui_fw_619bf22fc9f079_18179744').on('click', function(event) {
+							window.location = 'ilias.php?ref_id=3334251&cmd=frameset&cmdClass=ilrepositorygui&cmdNode=y7&baseClass=ilrepositorygui';
+							return false;
+					}); } catch (e) { console.log(e); }
+try { $('#il_ui_fw_619bf22fc9f793_73110881').on('click', function(event) {
+							window.location = 'ilias.php?ref_id=3279803&cmd=frameset&cmdClass=ilrepositorygui&cmdNode=y7&baseClass=ilrepositorygui';
+							return false;
+					}); } catch (e) { console.log(e); }
+try { $('#il_ui_fw_619bf22fc9fd97_82457661').on('click', function(event) {
+							window.location = 'ilias.php?ref_id=3279778&cmd=frameset&cmdClass=ilrepositorygui&cmdNode=y7&baseClass=ilrepositorygui';
+							return false;
+					}); } catch (e) { console.log(e); }
+try { $('#il_ui_fw_619bf22fca0468_38642591').on('click', function(event) {
+							window.location = 'ilias.php?ref_id=3279727&cmd=frameset&cmdClass=ilrepositorygui&cmdNode=y7&baseClass=ilrepositorygui';
+							return false;
+					}); } catch (e) { console.log(e); }
+try { $('#il_ui_fw_619bf22fca0a38_04879705').on('click', function(event) {
+							window.location = 'ilias.php?ref_id=3279415&cmd=frameset&cmdClass=ilrepositorygui&cmdNode=y7&baseClass=ilrepositorygui';
+							return false;
+					}); } catch (e) { console.log(e); }
+try { $('#il_ui_fw_619bf22fca1004_54740902').on('click', function(event) {
+							window.location = 'ilias.php?ref_id=1&cmd=frameset&cmdClass=ilrepositorygui&cmdNode=y7&baseClass=ilrepositorygui';
+							return false;
+					}); } catch (e) { console.log(e); }
+try {  } catch (e) { console.log(e); }
+		});
+	
+</script>
+
+<!-- Piwik --><script type="text/javascript">var _paq = _paq || [];(function(){ var u=(("https:" == document.location.protocol) ? "https://vitruv.uni-tuebingen.de/piwik/" : "http://vitruv.uni-tuebingen.de/piwik/"); _paq.push(['setSiteId', 1]); _paq.push(['setTrackerUrl', u+'piwik.php']);  _paq.push(['disableCookies']); _paq.push(['trackPageView']); var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript'; g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);})();</script><!-- End Piwik Code -->
+</body>
+</html>
