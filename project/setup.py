@@ -24,7 +24,9 @@ REQUIRED = [
     "matplotlib",
     "pandas",
     "numpy",
-    "ipykernel"
+    "ipykernel",
+    "sklearn",
+    "statsmodels"
 ]
 
 # What packages are optional?
