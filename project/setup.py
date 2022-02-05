@@ -26,7 +26,8 @@ REQUIRED = [
     "numpy",
     "ipykernel",
     "sklearn",
-    "statsmodels"
+    "statsmodels",
+    "tueplots"
 ]
 
 # What packages are optional?
